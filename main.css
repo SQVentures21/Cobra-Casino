@@ -54,14 +54,13 @@ body {
 
 .background
 {
-    background-image:url(assets/desktop/last.webp) ;
+    background-image:url(assets/desktop/Layer\ 26\ \(1\).webp) ;
     max-width: 1920px;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-   
-    
-  
+    min-height: 580px;
+     
 }
 
 .logo
@@ -74,8 +73,8 @@ body {
 .absolute-coins
 {
     position: absolute;
-    top:15rem;
-    left:0px;
+    top:10rem;
+    left:-3rem;
 
 }
 .text
@@ -114,6 +113,10 @@ body {
     text-decoration: none;
     margin: 2rem 0 1rem 1rem;
     display: inline-block;
+    border-width: 0px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 2px;
    
 }
 
@@ -244,7 +247,6 @@ li
 {
         font-size: 1.875rem;
         font-family: "Roboto";
-        
         font-weight: bold;
         line-height: 1.2;
         text-transform: uppercase;
@@ -322,7 +324,7 @@ height:3.75rem;
 }
 
 
-@media only screen and (max-width: 1350px)
+@media only screen and (max-width: 1562px)
 
 {
 
@@ -344,6 +346,7 @@ height:3.75rem;
                     background-repeat:no-repeat;
                     background-size: cover;
                     background-size: 100% ;
+                    min-height: 0;
                 }
 
     .absolute-coins, .flag-image , .registration
@@ -354,7 +357,7 @@ height:3.75rem;
     .cards
     {
         flex-direction: column;
-        gap: 0.5rem !important;
+        gap: 0rem !important;
         
     }
 
@@ -478,6 +481,7 @@ height:3.75rem;
 
    .cards{
        padding: 0rem;
+       gap:0rem;
    }
 
     .logo
@@ -485,7 +489,7 @@ height:3.75rem;
             position: absolute;
             left: 35%!important;
             height: 100px!important;
-            width: 100px!important;
+            width: 114px!important;
             
     
     }
@@ -493,6 +497,7 @@ height:3.75rem;
     .card
     {
         width: 80%;
+        gap:0;
     
     }
 
@@ -513,6 +518,7 @@ height:3.75rem;
     {
         font-size: 1.5rem;
         padding-left: 0;
+        padding-top: 25px;
         
     }
 
@@ -527,6 +533,7 @@ height:3.75rem;
     {
         font-size: 1rem;
         padding-left: 0;
+       
     }
 
     .absolute
@@ -547,7 +554,7 @@ height:3.75rem;
    .button
    {
        margin-top: 0.5rem;
-       padding: 0.5rem 0.4rem;
+       padding: 0.5rem 1rem;
    }
 
 
@@ -586,7 +593,10 @@ h1
       padding: 30%;
   }
 
-
+.parteners-icon
+{
+    padding-inline: 3rem;
+}
 
 }
 
@@ -610,8 +620,17 @@ h1
 
     .first
     {
-        padding-top: 1rem;;
+        padding-top: 1rem;
+        padding-top: 25px;
     }
+
+    .button
+    {
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+
+    
 }
 
 
@@ -653,6 +672,34 @@ h1
 
 }
 
+@media only screen and (max-width: 1704px)
+
+{
+
+        .absolute-coins
+        {
+            width:700px;
+            top:14rem;
+        }
+
+
+}
+
+
+@media only screen and (max-width: 1634px)
+
+{
+
+        .absolute-coins
+        {
+            width:700px;
+            top:20rem;
+        }
+
+
+}
+
+
 @media only screen and (max-width: 1820px)
 
 {
@@ -680,3 +727,6 @@ h1
 
 
 }
+
+
+
